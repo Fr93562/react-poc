@@ -1,0 +1,306 @@
+	
+/* Version responsive entre 416px et 991px */
+
+@media screen and (min-width: 416px) and (max-width: 991px)
+{
+	header
+	{
+/*	display: flex;
+	justify-content: center;
+	flex-direction: column; 	
+*/
+	height:auto;
+	}
+/*	header div img
+	{
+	visibility:hidden;
+	} 
+	header nav
+	{
+	position:sticky;
+	}
+*/
+/*	header nav
+	{
+		top:5px;
+	}
+*/
+	#agence
+{
+	padding-top:20px;
+	padding-left: 55px;
+}
+	#demicercle, #demicercle2
+	{
+		display:none;
+	}
+	#acceuil 
+	{
+		background-size:cover;
+	}
+	#graph, #cube, #graph2, #minicercle, #test, #minicercle2, #test2, #minicercle3, #test3, #ordinateur2
+	{
+		display:none;
+	}
+	#formulaire
+	{
+		padding-right:20px;
+	}
+	#centrerp
+	{
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-left:10px;
+	}
+	#projets
+	{
+		height:auto;
+		padding-bottom:50px;
+	}
+	.portfolioplacement
+	{
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#portfolio5, #portfolio6, #portfolio7,#portfolio8
+	{
+	margin-top: 0px;	
+
+	}
+}
+/* media queries compris entre 350px et 415px */
+
+@media screen and (min-width: 350px) and (max-width: 415px)
+{
+	header
+	{
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	height:auto;
+	}
+	header div img
+	{
+	visibility:hidden;
+	}
+		header nav
+	{
+		position:fixed;
+		margin: 5px;
+		top:5px;		
+	}
+	header nav ul
+	{
+	/*	display: flex;
+		flex-direction: column; */
+		padding-left:10px;
+	} 
+
+	#agence
+{
+	padding-top:20px;
+	padding-left: 0px;
+}
+	#demicercle, #demicercle2
+	{
+		display:none;
+	}
+	#acceuil 
+	{
+		background-size:cover;
+	}
+	#graph, #cube, #graph2, #minicercle, #test, #minicercle2, #test2, #minicercle3, #test3, #ordinateur2
+	{
+		display:none;
+	}
+	#formulaire
+	{
+		padding-right:20px;
+		margin-right: 0px;
+	}
+	#centrerp
+	{
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-left:10px;
+	}
+	#projets
+	{
+		height:auto;
+		padding-bottom:50px;
+	}
+	.portfolioplacement
+	{
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#portfolio5, #portfolio6, #portfolio7,#portfolio8
+	{
+		margin-top: 0px;	
+	}
+	#portfolioplacementmedia	
+	{
+		padding-top:0px;
+	}
+	#logo,#logo2
+	{
+		display:none;
+	}
+	#banniere
+	{
+		padding-top: 50px;
+	}
+	header nav ul li
+	{
+		padding-left: 0px;
+	}
+	header nav ul li:hover
+{
+		border-top: 0px solid rgb(68,148,187);
+
+}
+	#projets ul
+	{
+		flex-direction:column;
+		width: 170px;
+	}
+	#projets ul li a
+	{
+		text-align:center;
+	}
+	#projets ul li:hover .fleche
+{
+	visibility:hidden;
+}
+	#formulaire
+	{
+		margin:auto;
+	}
+}
+/* Version responsive pour les écrans de 349px */
+@media screen and (max-width: 349px)
+{
+	header
+	{
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	
+
+	height:120px;
+	}
+	header div img
+	{
+	display:none; 
+	}
+/*		header nav
+	{
+		position:fixed;
+		margin:5px;
+		top:20px;
+	}
+*/
+	header nav ul 
+	{
+		padding-left:5px;
+	}
+	header nav ul li
+	{
+/*		display: flex;
+		flex-direction: column; */
+		padding-right:0px;
+	} 
+
+	
+	#agence
+{
+	padding-top:20px;
+	padding-left: 0px;
+}
+	#demicercle, #demicercle2
+	{
+		display:none;
+	}
+	#acceuil 
+	{
+		background-size:cover;
+	}
+	#graph, #cube, #graph2, #minicercle, #test, #minicercle2, #test2, #minicercle3, #test3, #ordinateur2
+	{
+		display:none;
+	}
+	#formulaire
+	{
+		padding-right:20px;
+		margin-right: 0px;
+	}
+	#centrerp
+	{
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-left:10px;
+	}
+	#projets
+	{
+		height:auto;
+		padding-bottom:50px;
+	}
+	.portfolioplacement
+	{
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	#portfolio5, #portfolio6, #portfolio7,#portfolio8
+	{
+		margin-top: 0px;	
+	}
+	#portfolioplacementmedia	
+	{
+		padding-top:0px;
+	}
+	#logo,#logo2
+	{
+		display:none;
+	}
+	#banniere
+	{
+		padding-top: 50px;
+	}
+	header nav ul li
+	{
+		padding-left:0px;
+	}
+	header nav ul li:hover
+	{
+		border-top: 0px solid rgb(68,148,187);
+	}
+	#projets ul
+	{
+		flex-direction:column;
+		width: 170px;
+	}
+	#projets ul li a
+	{
+		text-align:center;
+	}
+	#projets ul li:hover .fleche
+	{
+		visibility:hidden;
+	}
+	#formulaire
+	{
+		width:300px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.form
+	{
+		width:280px;
+	}
+}

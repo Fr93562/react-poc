@@ -1,0 +1,138 @@
+/* Page de service */
+#services
+{
+		margin-top: 0px;
+}
+h2, #pservice
+{
+	text-align: center;
+}
+article
+{
+	display: flex;
+	justify-content: center;
+}
+
+#graph
+{
+	color: rgb(92,173,211);
+	border: 1px solid rgb(68,148,187);
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:50%;
+	margin-right: 20px;
+	float: left;
+
+}
+
+#cube
+{
+	color: rgb(92,173,211);
+	border: 1px solid rgb(68,148,187);
+	padding-top:12px;
+	padding-bottom:12px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:50%;
+	margin-right: 20px;
+	float: left;
+
+}
+#graph2
+{
+	color: rgb(92,173,211);
+	border: 1px solid rgb(68,148,187);
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius:50%;
+	float: left;
+	position:relative;
+	
+}
+
+#minicercle
+{
+	color: rgb(92,173,211);
+	position:relative;
+	right: 27px;
+	top:14px;
+}
+#test
+{
+	display:inline;
+	float:left;
+}
+#minicercle2
+{
+	color: rgb(92,173,211);
+	position:relative;
+	right: 27px;
+	top:14px;
+}
+#test2
+{
+	display:inline;
+	float:left;
+}
+#minicercle3
+{
+	color: rgb(92,173,211);
+	position:relative;
+	right: 7px;
+	top:14px;
+}
+#test3
+{
+	display:inline;
+	float:left;
+	margin-right:23px;
+}
+#services article div div div h3
+{
+	text-align: left;
+}
+#services article div div div p
+{
+	display:inline-block;
+	clear:both;
+	text-align: left;	
+	width: 80%;
+	position:relative;
+	bottom:34px;
+	text-align:justify;
+}
+
+
+#logo
+{
+	width: 10%;
+	position: relative;
+	left:45%;
+	border-top: 2px solid rgb(68,148,187);
+}
+#logocercle
+{
+	position: relative;
+	left:42%;
+	top:-10px;
+	border:8px solid rgb(255,255,255);
+	border-radius:50%;
+	height: 3px;
+	width: 3px;
+	background-color:rgb(255,255,255);
+}
+#logocercle4
+{
+	position: relative;
+	left:-5px;
+	top:-5px;
+	border:5px solid rgb(68,148,187);
+	border-radius:50%;
+	height: 3px;
+	width: 3px;
+	background-color:rgb(68,148,187);
+}

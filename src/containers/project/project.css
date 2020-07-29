@@ -1,0 +1,182 @@
+/* Projets */
+#projets
+{
+		background-color: rgb(245,245,245);
+		margin-top: 80px;
+		padding-top: 80px;
+		height: 700px;
+}
+
+#logo2
+{
+	width: 10%;
+	position: relative;
+	left:45%;
+	border-top: 2px solid rgb(68,148,187);
+}
+#logocercle3
+{
+	position: relative;
+	left:-5px;
+	top:-5px;
+	border:5px solid rgb(68,148,187);
+	border-radius:50%;
+	height: 3px;
+	width: 3px;
+	background-color:rgb(68,148,187);
+}
+#logocercle2
+{
+	position: relative;
+	left:42%;
+	top:-10px;
+	border:8px solid rgb(255,255,255);
+	border-radius:50%;
+	height: 3px;
+	width: 3px;
+	background-color:rgb(255,255,255);
+}
+h2
+{
+	text-align: center;
+}
+#projets p 
+{
+	text-align: center;
+}
+ul
+{
+	display: flex;
+	justify-content: center;
+	list-style-type:none;
+}
+#projets ul li
+{
+	position:relative;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	padding-right: 8px;
+	padding-left: 8px;
+	background-color: rgb(229,229,229);
+	border: 1px solid rgb(229,229,229);
+	border-radius: 3px;
+
+}
+#projets ul li:hover 
+{
+	background-color: rgb(92,173,211);
+	border-radius: 3px;
+	text-align:left;
+}
+.fleche
+{
+	display:none;
+}
+
+#projets ul li:hover .fleche
+{
+	display:inline;
+	width:0px;
+	border:8px solid transparent;
+	border-top:10px solid rgb(92,173,211);
+	position: relative;
+	top:38px;
+	left:40%;
+}
+
+#projets article
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width:1200px;
+	margin:auto;
+}
+
+/*placement des images + hover */
+.portfolioplacement
+{
+	padding-top:15px;
+}
+
+.portfolio
+{
+	display: block;
+	width: 260px;
+	height: 175px;
+	background-size: cover;
+	position: relative;
+}
+.porthover
+{
+	height:50%;
+	width:100%;
+	position: absolute;
+	bottom:0px;
+	color: white;
+	background-color:rgba(0,0,0,0.6);
+	text-align: left;
+	display:none; 
+}
+.portcercle
+{
+	position:absolute;
+	width:36px;
+	height:36px;
+	border: 2px solid white;
+	border-radius: 50%;
+	background-color:rgb(68,148,187);
+	right:20px;
+	top:-18px;
+}
+#projets article div div div .fa 
+{
+	position: relative;
+	left: 9px;
+	top:6px;
+}
+h4
+{
+	padding-left:24px;
+}
+.portfolio:hover .porthover
+{
+	display:block;
+}
+#portfolio1
+{
+	background-image:url("../../components/assets/portfolio/11.jpg");
+}
+#portfolio2
+{
+	background-image:url("../../components/assets/portfolio/22.jpg");
+}
+#portfolio3
+{
+	background-image:url("../../components/assets/portfolio/33.jpg");
+}
+#portfolio4
+{
+	background-image:url("../../components/assets/portfolio/44.jpg");
+}
+
+#portfolio5
+{
+	margin-top: 100px;
+	background-image:url("../../components/assets/portfolio/55.jpg");
+}
+#portfolio6
+{
+	margin-top: 100px;
+	background-image:url("../../components/assets/portfolio/66.jpg");
+}
+#portfolio7
+{
+	margin-top: 100px;
+	background-image:url("../../components/assets/portfolio/77.jpg");
+}
+#portfolio8
+{
+	margin-top: 100px;
+	background-image:url("../../components/assets/portfolio/88.jpg");
+}

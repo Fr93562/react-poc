@@ -3,18 +3,27 @@ import { Link } from "react-router-dom";
 
 import './header.css';
 
+/**
+ * rendu du header de la page html
+ * utilise l'objet Link pour le router react
+ */
 class Header extends React.Component {
-  render() {
-    return (
 
+  render() {
+    
+    return (
       <header>
-        <h1>My meteo App</h1>
+
+        <div>
+          <img id="agence" src="./images/logo.png" alt="logo web agency" />
+        </div>
 
         <nav>
           <ul className="list-inline">
             <li className="list-inline-item"><Link to="/"> Accueil </Link></li>
-            <li className="list-inline-item"><Link to="/carte"> Carte </Link></li>
-            <li className="list-inline-item"><Link to="/faq"> FAQ </Link></li>
+            <li className="list-inline-item"><Link to="/services"> Services </Link></li>
+            <li className="list-inline-item"><Link to="/projets"> Projets </Link></li>
+            <li className="list-inline-item"><Link to="/contact"> Contact </Link></li>
           </ul>
         </nav>
 
