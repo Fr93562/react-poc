@@ -1,6 +1,8 @@
 import React from 'react';
 import './project.css';
 
+import ProjectContent from '../../components/content/ProjectContent';
+
 /**
  * rendu de la page des projets
  * @path : "/projets"
@@ -32,7 +34,7 @@ class Project extends React.Component {
         </ul>
         
         <article class="portfolioplacement">
-          
+{/*           
           <div class="portfolio" id="portfolio1">
             <div class="porthover">
               <div class="portcercle"><i class="fa fa-eye" aria-hidden="true"></i></div>
@@ -63,10 +65,11 @@ class Project extends React.Component {
               <h4> Une appli web </h4>
               <p>Proposez un service </p>
             </div>
-          </div>
-
+          </div> */}
+        <ProjectContent></ProjectContent>
         </article>
-        <article id="portfolioplacementmedia" class="portfolioplacement">
+
+        {/* <article id="portfolioplacementmedia" class="portfolioplacement">
           
           <div class="portfolio" id="portfolio5">
             <div class="porthover">
@@ -100,7 +103,7 @@ class Project extends React.Component {
             </div>
           </div>
         
-        </article>
+        </article> */}
       </section>
     );
   }
