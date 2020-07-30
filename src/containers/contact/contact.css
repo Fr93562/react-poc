@@ -1,6 +1,23 @@
 
 /* Partie fiche de contat */
 
+/* Navigatin */
+#navContact
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#navContact button
+{
+	font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    border: 0px
+}
+
 #contact
 {
 	margin-top: 0px;

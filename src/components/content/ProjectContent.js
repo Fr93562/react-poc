@@ -75,8 +75,6 @@ class ProjectContent extends React.Component {
             }
         }
 
-        console.log(this.response);
-
         return ( 
         <div>
             <article id="portfolioplacementmedia" class="portfolioplacement">

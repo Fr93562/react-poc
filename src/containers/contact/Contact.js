@@ -1,42 +1,77 @@
 import React from 'react';
 import './contact.css';
 
+
+import FormContact from '../../components/content/FormContact';
+import DateContact from '../../components/content/DateContact';
 /**
  * rendu de la page de contact
  * @path : "/contact"
  */
 class Contact extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = { 
+      button: false,
+      timer : {
+        hour : 0,
+        minut : 0,
+      }
+    };
+
+    this.trueButton = this.trueButton.bind(this);
+    this.falseButton = this.falseButton.bind(this);
+    this.currentTime = this.currentTime.bind(this);
+  }
+
+  trueButton() {
+
+    this.setState({
+      button: true
+    });
+  };
+
+  falseButton() {
+
+    this.setState({
+      button: false
+    });
+  };
+
+  currentTime() {
+
+    let date = new Date();
+    let response = {
+      hour : date.getHours(),
+      minut : date.getMinutes()
+    };
+
+    this.setState({
+
+      timer: {
+        hour : response.hour,
+        minut : response.minut
+      }
+    });
+  }
+
   render() {
+
+    setInterval( this.currentTime, 1000);
 
     return (
       <section id="contact">
 
-        <h2> FORMULAIRE DE CONTACT </h2>
+        <h2> CONTACT </h2>
+        <div id="navContact">       
+          <button onClick={this.falseButton}> Formulaire </button> <span>|</span>
+          <button onClick={this.trueButton}> Horaires </button>
+        </div>
 
         <div id="map">
-          <div id="formulaire">
 
-            <h3> Contact info</h3>
-            <p>
-              <em> WebAgency SAS </em> <br />
-						25 rue d'Hauteville 75010 Paris <br />
-						Tel: 01 02 03 04 05
-						</p>
-
-            <form method="post" action="traitement.php">
-              <input class="form" type="text" name="pseudo" id="nom" placeholder="Name" maxlength="10" size="38" />
-              <br />
-              <input class="form" type="email" name="mail" id="mail" placeholder="Email" size="38" />
-              <br />
-              <input class="form" type="text" name="subject" id="subject" placeholder="Subject" maxlength="35" size="38" />
-              <br />
-              <textarea class="form" name="message" id="message" placeholder="Message" rows="6" cols="39" ></textarea>
-              <br />
-              <input class="form" id="submite" type="submit" value="Send Message" />
-            </form>
-
-          </div>
+          {this.state.button? <DateContact date={this.state.timer} ></DateContact>: <FormContact></FormContact> }
 
         </div>
         
